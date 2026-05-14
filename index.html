@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flower Line Art</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #e6e6e6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    canvas,
+    svg {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- p5.js 本体 (p5.js-svg 1.5.1 は p5.js 1.6.x 対応) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+  <!-- p5.js-svg (正しいパッケージ名: p5.js-svg) -->
+  <script src="https://unpkg.com/p5.js-svg@1.5.1/dist/p5.svg.js"></script>
+  <!-- スケッチ -->
+  <script src="sketch.js"></script>
+</body>
+
+</html>
